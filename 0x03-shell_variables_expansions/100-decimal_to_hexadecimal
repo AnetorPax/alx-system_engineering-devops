@@ -1,2 +1,2 @@
-#!/bin/bash
-echo $((16#$DECIMAL)) 
+!/bin/bash
+printf "0x%04x" $DECIMAL
