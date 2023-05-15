@@ -1,2 +1,2 @@
 #!/bin/bash
-sed -i 's/Ac/Ze/g'
+echo Aca | tr Ac Ze
