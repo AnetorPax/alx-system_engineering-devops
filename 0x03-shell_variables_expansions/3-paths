@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(( $(echo $PATH|tr -c -d '/' |wc -c )-1 ))
+ls PATH | grep -c ^d
