@@ -1,2 +1,2 @@
 #!/bin/bash
-printf -v result1 "%x\n" "$DECIMAL"
+printf -v "%x\n" "$DECIMAL"
